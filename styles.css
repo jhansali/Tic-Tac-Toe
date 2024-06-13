@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
     height: 300px;
-    justify-content: center;
 }
 
 .square{
@@ -19,8 +18,13 @@
     font-size: 80px;
 }
 
-.message{
+.controls, .message{
     text-align: center;
     /* font-size: 30px; */
     margin-top: 20px 0;
+}
+
+.result-display, .message{
+    font-size: 40px;
+    color: red;
 }
